@@ -1,0 +1,146 @@
+body{
+width: 1000px;
+/* border: 1px solid black; */
+margin: 0 auto 0 auto;
+padding: 0;
+font-family: lucida console;
+}
+.header{
+    background-image: url("back.jpg");
+    display:grid;
+    grid-template-columns: 100px 800px 100px;
+background-color: rgb(255, 255, 255);
+margin: 0;
+padding: 20px;
+border-bottom: 5px solid black;
+}
+
+a{
+text-decoration: none
+}
+
+.logo{
+width: 100px;
+height: 100px;
+}
+.nav{
+    width: 700px;
+    
+}
+.menu{
+display: flex;
+justify-content: space-around;
+list-style: none;
+color:rgb(0, 0, 0);
+font-weight: 600;
+margin-top: 50px;
+}
+.fairytail{
+    background-image: url("back2.jpg");
+    margin: 0;
+display: grid;
+grid-template-columns: 300px  600px;
+grid-template-areas: "text  mustang" 
+                      "text  mustang"
+;
+                     gap: 20px;
+                     /* padding: 50px; */
+
+}
+h1{
+    margin-top: 100px;
+  grid-area: text;  
+  margin-left: 60px;
+ align-self: top;
+}
+.mustang img{
+    grid-area: mustang;
+}
+h2{
+    text-align: center;
+    border-bottom: 5px solid black;
+    background-image: url("back2.jpg");
+    margin: 0;
+}
+.variants{
+width: 600px;
+padding: 10p;
+margin-left: auto;
+margin-right: auto;
+}
+.variant1, .variant2, .variant3{
+    position: relative;
+    width: 600px;
+    height: 240px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+}
+.variant1{
+    background: url("DNS.png") no-repeat;
+    background-size: 75px;
+     padding: 50px;
+     
+}
+.var-1 {
+font-size: 22px;
+font-weight: 600;
+}
+.variant2{
+    background: url("sex.jpg") no-repeat -3% 0;
+    background-size: 120px;
+     padding: 50px;
+}
+.var-2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px;
+}
+.variant3{
+    background: url("html-academy.png") no-repeat -2% 0 ;
+    background-size: 100px;
+     padding: 50px;
+
+}
+.var-3{
+ font-size: 22px;
+font-weight: 600;
+margin: 25px;
+}
+h3{
+    text-align: center;
+    border-top: 5px solid black;
+}
+.bottom{
+    text-align: center;
+}
+.vote{
+    color: black;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.footer{
+display: grid;
+grid-template-columns: 700px 260px;
+height: 150px;
+margin-top: 20px;
+background-image: url("back.jpg");
+padding: 20px;
+}
+.social{
+    justify-self: end;
+}
+
+.main{
+    background-image: url("back2.jpg");
+}
+input[type="checkbox"]{
+    animation-duration: 6s;
+}
+.area{
+    margin-left: auto;
+    margin-right: auto;
+}
